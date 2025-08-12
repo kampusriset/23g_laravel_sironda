@@ -6,10 +6,14 @@
     }
 @endphp
 <!-- Hero Section -->
-<header class="bg-primary text-white text-center py-5">
-    <h1>Selamat Datang di Portal Ronda Malam</h1>
-    <p class="lead">Bersama kita jaga kampung, eratkan silaturahmi.</p>
+<header class="bg-image text-white text-center d-flex align-items-center justify-content-center">
+    <div>
+        <h1>Selamat Datang di Portal Ronda Malam</h1>
+        <p class="lead">Bersama kita jaga kampung, eratkan silaturahmi.</p>
+    </div>
 </header>
+
+
 
 <!-- Konten Utama -->
 <div class="container my-5">
