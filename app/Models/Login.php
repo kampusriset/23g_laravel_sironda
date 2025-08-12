@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Login extends Model
 {
-    protected $table = "anggota";
+    protected $table = "user";
     protected $primaryKey = "id_petugas";
     protected $fillable = [
         "id_petugas",

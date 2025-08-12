@@ -3,6 +3,6 @@
 @section('title', 'Jadwal')
 
 @section('content')
-    <h2 class="mt-4">Halaman Kegiatan</h2>
+    <h2 class="mt-4">Halaman Absensi</h2>
     <p>Daftar warga aktif dalam ronda malam.</p>
 @endsection

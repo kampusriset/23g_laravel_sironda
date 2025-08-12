@@ -1,0 +1,10 @@
+.bg-image {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5)
+    ), url('/assets/images/background_desa.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    box-shadow: inset;
+}
+
