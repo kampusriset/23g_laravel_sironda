@@ -43,20 +43,21 @@ Aplikasi ini membantu:
    git clone https://github.com/username/sironda.git
    cd sironda
 
-👥 Kontributor
+---
 
-> Tiramisu v.2 – Project Manager
+## 👥 Kontributor
 
-> Nekoyen – Frontend Developer
+| Nama           | Peran                  |
+|----------------|------------------------|
+| **Tiramisu v.2** | Project Manager        |
+| **Nekoyen**      | Frontend Developer     |
+| **SiTerrapin**   | Backend Developer      |
+| **CodeRider**    | UI/UX Designer         |
+| **BirdFly**      | Database Administrator |
+| **Ambon**        | QA Tester              |
 
-> SiTerrapin – Backend Developer
-
-> CodeRider – UI/UX Designer
-
-> BirdFly – Database Administrator
-
-> Ambon – QA Tester
-
+---
+---
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
