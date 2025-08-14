@@ -16,9 +16,9 @@ Aplikasi ini membantu:
 ---
 
 ## 📷 Gambar Kegiatan
-> Sekelompok bapak-bapak berkumpul di pos ronda, bergiliran berjaga sambil mencatat kehadiran dalam buku ronda.
+> Sekelompok bapak-bapak berkumpul di pos ronda, bergiliran berjaga sambil absen menggunakan laptop.
 
-![Kegiatan Ronda](./public/assets/images/kegiatan_ronda.jpg)
+![Kegiatan Ronda](./public/assets/images/kegiatan_ronda.png)
 
 ---
 
