@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>@yield('title', 'Sironda')</title>
-    <link rel="stylesheet" href="{{ asset('assets/bootstrap.min.css') }}">
+    {{-- Vite CSS --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
     @include('partials.navbar')
