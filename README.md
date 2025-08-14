@@ -54,7 +54,7 @@ Aplikasi ini membantu:
 | **SiTerrapin**   | Backend Developer      |
 | **CodeRider**    | UI/UX Designer         |
 | **BirdFly**      | Database Administrator |
-| **Ambon**        | QA Tester              |
+| **Cemong**        | QA Tester              |
 
 ---
 ---
