@@ -1,6 +1,6 @@
 # 🛡️ SiRonda
 
-![SiRonda Logo](./LogoNav_sironda.png)
+![SiRonda Logo](./public/assets/icon/LogoNav_sironda.png)
 
 **SiRonda** adalah **Aplikasi Penjadwalan dan Monitoring Ronda Malam** yang dirancang untuk membantu warga mengatur jadwal ronda, memantau kehadiran, dan mencatat laporan kejadian dengan mudah dan terstruktur.
 
@@ -18,7 +18,7 @@ Aplikasi ini membantu:
 ## 📷 Gambar Kegiatan
 > Sekelompok bapak-bapak berkumpul di pos ronda, bergiliran berjaga sambil mencatat kehadiran dalam buku ronda.
 
-![Kegiatan Ronda](./kegiatan_ronda.jpg)
+![Kegiatan Ronda](./public/assets/images/kegiatan_ronda.jpg)
 
 ---
 
