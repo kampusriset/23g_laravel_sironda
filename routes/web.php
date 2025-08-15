@@ -5,8 +5,12 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 
 Route::get('/', function () {
-    return view('auth.login');
+    if (Auth::guard('petugas')->check()) {
+        return redirect()->route('dashboard');
+    }
+    return redirect()->route('login');
 });
+
 
 Route::middleware('guest:petugas')->group(function () {
     Route::get('/login', [AuthController::class, 'showLogin'])->name('login');

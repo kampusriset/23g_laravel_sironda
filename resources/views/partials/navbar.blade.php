@@ -10,11 +10,11 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
             <ul class="navbar-nav nav-underline">
-                <li class="nav-item"><a class="nav-link active" href="/dashboard">Beranda</a></li>
-                <li class="nav-item"><a class="nav-link active" href="/petugas">Petugas</a></li>
-                <li class="nav-item"><a class="nav-link active" href="/plot">Jadwal</a></li>
-                <li class="nav-item"><a class="nav-link active" href="/laporan">Laporan</a></li>
-                <li class="nav-item"><a class="nav-link active" href="/rekap">Rekap</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="/dashboard">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="/petugas">Petugas</a></li>
+                <li class="nav-item"><a class="nav-link" href="/plot">Jadwal</a></li>
+                <li class="nav-item"><a class="nav-link" href="/laporan">Laporan</a></li>
+                <li class="nav-item"><a class="nav-link" href="/rekap">Rekap</a></li>
 
                 @auth
                 <li class="nav-item">
