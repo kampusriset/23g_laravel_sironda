@@ -12,7 +12,8 @@ class LaporanController
      */
     public function index()
     {
-        //
+        $laporan = Laporan::with('petugas')->orderByDesc('tanggal_lapor')->get();
+        return view('laporan.index', compact('laporan'));
     }
 
     /**
@@ -28,7 +29,22 @@ class LaporanController
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'isi_laporan' => 'required',
+        ]);
+
+        Laporan::create([
+            'petugas_id' => auth()->guard('petugas')->user()->id_petugas,
+            'tanggal_lapor' => now(),
+            'isi_laporan' => $request->isi_laporan,
+        ]);
+
+        return back()->with('success', 'Laporan berhasil disimpan.');
+    }
+    public function detail($id)
+    {
+        $laporan = Laporan::with('petugas')->findOrFail($id);
+        return view('laporan.detail', compact('laporan'));
     }
 
     /**

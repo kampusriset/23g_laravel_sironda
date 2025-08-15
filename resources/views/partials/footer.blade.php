@@ -1,7 +1,10 @@
-<footer class="text-white mt-auto py-4">
+<footer class="text-white mt-auto py-3">
     <div class="container-xxl d-flex flex-column flex-md-row justify-content-between align-items-center">
-        <div class="mb-2 mb-md-0">
-            <strong>SiRonda</strong> &mdash; Sistem Informasi Ronda Terpadu
+        <div class="row mb-2 mb-md-0">
+            <a href="/dashboard">
+                <img src="{{ asset("assets/icon/LogoNav_sironda.png") }}" style="height: auto; max-width: 30%; object-fit: contain;" class="img-fluid" alt="Logo SiRonda">
+            </a>
+            <span class="mt-2"><strong>SiRonda</strong> <br> Sistem Informasi Ronda Terpadu</span>
         </div>
         <div class="d-flex gap-3">
             <a href="#" class="text-white text-decoration-none">Tentang</a>

@@ -20,4 +20,10 @@ class Petugas extends Authenticatable
         'is_active',
     ];
     protected $hidden = ['password'];
+
+    public function jadwal()
+    {
+        return $this->hasMany(Plot::class, 'petugas_id', 'id_petugas');
+    }
+
 }

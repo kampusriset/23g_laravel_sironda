@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Rekap;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class RekapController
 {
@@ -12,7 +13,14 @@ class RekapController
      */
     public function index()
     {
-        //
+        $rekap = DB::table('laporan_petugas')
+            ->join('petugas', 'laporan_petugas.petugas_id', '=', 'petugas.id_petugas')
+            ->select('petugas.nama_lengkap', DB::raw('COUNT(*) as total_laporan'))
+            ->groupBy('petugas.id_petugas', 'petugas.nama_lengkap')
+            ->orderByDesc('total_laporan')
+            ->get();
+
+        return view('rekap.index', compact('rekap'));
     }
 
     /**

@@ -14,7 +14,7 @@
                 <li class="nav-item me-4"><a class="nav-link {{ Request::is('petugas') ? 'active' : '' }}" href="/petugas">Petugas</a></li>
                 <li class="nav-item me-4"><a class="nav-link {{ Request::is('plot') ? 'active' : '' }}" href="/plot">Jadwal</a></li>
                 <li class="nav-item me-4"><a class="nav-link {{ Request::is('laporan') ? 'active' : '' }}" href="/laporan">Laporan</a></li>
-                <li class="nav-item me-4"><a class="nav-link{{ Request::is('rekap') ? 'active' : '' }}" href="/rekap">Rekap</a></li>
+                <li class="nav-item me-4"><a class="nav-link {{ Request::is('rekap') ? 'active' : '' }}" href="/rekap">Rekap</a></li>
 
                 @auth
                 <li class="nav-item">
