@@ -4,15 +4,18 @@ namespace App\Http\Controllers;
 
 use App\Models\Plot;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
-class PlotController
+class PlotController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        $jadwal = Plot::with('petugas')->orderBy('tanggal', 'asc')->get();
+        return view('plot.index', compact('jadwal'));
+
     }
 
     /**

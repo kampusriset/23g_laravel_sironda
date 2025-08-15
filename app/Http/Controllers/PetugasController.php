@@ -4,15 +4,18 @@ namespace App\Http\Controllers;
 
 use App\Models\Petugas;
 use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 
-class PetugasController
+class PetugasController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        //
+        $petugasAktif = Petugas::where('is_active', '1')->get();
+        return view('petugas.index', compact('petugasAktif'));
+
     }
 
     /**
