@@ -47,14 +47,14 @@ Aplikasi ini membantu:
 
 ## 👥 Kontributor
 
-                           | Nama           | Peran                  |
-                           |----------------|------------------------|
-                           | **Tiramisu v.2** | Project Manager        |
-                           | **Nekoyen**      | Frontend Developer     |
-                           | **SiTerrapin**   | Backend Developer      |
-                           | **CodeRider**    | UI/UX Designer         |
-                           | **BirdFly**      | Database Administrator |
-                           | **Cemong**        | QA Tester              |
+   | Nama           | Peran                  |
+   |----------------|------------------------|
+   | **Tiramisu v.2** | Project Manager        |
+   | **Nekoyen**      | Frontend Developer     |
+   | **SiTerrapin**   | Backend Developer      |
+   | **CodeRider**    | UI/UX Designer         |
+   | **BirdFly**      | Database Administrator |
+   | **Cemong**        | QA Tester              |
 
 ---
 ---
