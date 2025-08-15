@@ -49,12 +49,12 @@ Aplikasi ini membantu:
 
    | Nama           | Peran                  |
    |----------------|------------------------|
-   | **Bavastravan**(https://github.com/Bavastravan) | Project Manager        |
-   | **Bapong**(https://github.com/Bapong)      | Frontend Developer     |
-   | **SiTerrapin**(https://github.com/SiTerrapin)   | Backend Developer      |
-   | **daffadzaki20**(https://github.com/daffadzaki20)    | UI/UX Designer         |
-   | **Grezze**(https://github.com/Grezze)      | Database Administrator |
-   | **cemong01**(https://github.com/cemong01)        | QA Tester              |
+   | [**Bavastravan**](https://github.com/Bavastravan) | Project Manager        |
+   | [**Bapong**](https://github.com/Bapong)      | Frontend Developer     |
+   | [**SiTerrapin**](https://github.com/SiTerrapin)   | Backend Developer      |
+   | [**daffadzaki20**](https://github.com/daffadzaki20)    | UI/UX Designer         |
+   | [**Grezze**](https://github.com/Grezze)      | Database Administrator |
+   | [**cemong01**](https://github.com/cemong01)        | QA Tester              |
 
 ---
 ---
