@@ -8,7 +8,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body>
-    @include('partials.navbar')
+    @if (!in_array(Request::path(), ['login', 'register']))
+        @include('partials.navbar')
+    @endif
 
     <div class="container mt-4">
         @yield('content')
