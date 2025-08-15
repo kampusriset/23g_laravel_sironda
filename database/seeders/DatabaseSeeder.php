@@ -13,7 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        petugas::factory(10)->count(5)->create();
+        Petugas::factory()->count(21)->create();
         
         $this->call(PetugasSeeder::class);
     }
