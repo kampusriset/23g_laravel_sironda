@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>@yield('title', 'Sironda')</title>
+    
     {{-- Vite CSS --}}
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>

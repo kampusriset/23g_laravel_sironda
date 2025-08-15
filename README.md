@@ -45,19 +45,22 @@ Aplikasi ini membantu:
 
 ---
 
-## 👥 Kontributor
+## 💚 Thanks to all contributors! 💚
 
-| Nama           | Peran                  |
-|----------------|------------------------|
-| **Tiramisu v.2** | Project Manager        |
-| **Nekoyen**      | Frontend Developer     |
-| **SiTerrapin**   | Backend Developer      |
-| **CodeRider**    | UI/UX Designer         |
-| **BirdFly**      | Database Administrator |
-| **Cemong**        | QA Tester              |
+   | Nama           | Peran                  |
+   |----------------|------------------------|
+   | [**Bavastravan**](https://github.com/Bavastravan) | Project Manager        |
+   | [**Bapong**](https://github.com/Bapong)      | Frontend Developer     |
+   | [**SiTerrapin**](https://github.com/SiTerrapin)   | Backend Developer      |
+   | [**daffadzaki20**](https://github.com/daffadzaki20)    | UI/UX Designer         |
+   | [**Grezze**](https://github.com/Grezze)      | Database Administrator |
+   | [**cemong01**](https://github.com/cemong01)        | QA Tester              |
 
 ---
----
+<div align="center">
+   <h1>✨ Thanks to Laravel! ✨</h1>
+</div>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
