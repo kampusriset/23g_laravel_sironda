@@ -57,7 +57,9 @@ Aplikasi ini membantu:
    | [**cemong01**](https://github.com/cemong01)        | QA Tester              |
 
 ---
-# ✨ Thanks to Laravel! ✨
+<div align="center">
+      # ✨ Thanks to Laravel! ✨
+</div>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
